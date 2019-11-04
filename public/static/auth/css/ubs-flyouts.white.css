@@ -1,0 +1,165 @@
+.flyout {
+  display: none ;
+  position: absolute;
+  z-index: 1;
+}
+.flyout.is-flyout-shown {
+  display: block;
+}
+.flyout .flyout-content {
+  padding: 12px 17px 12px 12px;
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid #bbbbba;
+  -webkit-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+}
+.flyout .flyout-close-button {
+  font-size: 11px;
+  position: absolute;
+  color: #444444;
+  top: 4px;
+  right: 4px;
+  text-align: center;
+}
+.flyout .flyout-close-button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: #646464;
+}
+.flyout .flyout-close-button:active {
+  background-color: #000000;
+}
+.flyout.has-flyout-close-button .flyout-content {
+  padding-right: 25px;
+}
+.flyout.flyout-position-right,
+.flyout.flyout-position-right-bottom,
+.flyout.flyout-position-right-top {
+  padding-left: 5px;
+}
+.flyout.flyout-position-right .flyout-arrow,
+.flyout.flyout-position-right-bottom .flyout-arrow,
+.flyout.flyout-position-right-top .flyout-arrow {
+  margin-left: 1px;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid transparent !important;
+  border-right: 5px solid #ffffff;
+  border-top: 5px solid transparent !important;
+}
+.flyout.flyout-position-right .flyout-arrow:before,
+.flyout.flyout-position-right-bottom .flyout-arrow:before,
+.flyout.flyout-position-right-top .flyout-arrow:before {
+  top: -5px;
+  left: -1px;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid transparent !important;
+  border-right: 5px solid #bbbbba;
+  border-top: 5px solid transparent !important;
+}
+.flyout.flyout-position-left,
+.flyout.flyout-position-left-bottom,
+.flyout.flyout-position-left-top {
+  padding-right: 5px;
+}
+.flyout.flyout-position-left .flyout-arrow,
+.flyout.flyout-position-left-bottom .flyout-arrow,
+.flyout.flyout-position-left-top .flyout-arrow {
+  margin-left: -1px;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid transparent !important;
+  border-left: 5px solid #ffffff;
+  border-top: 5px solid transparent !important;
+}
+.flyout.flyout-position-left .flyout-arrow:before,
+.flyout.flyout-position-left-bottom .flyout-arrow:before,
+.flyout.flyout-position-left-top .flyout-arrow:before {
+  top: -5px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid transparent !important;
+  border-left: 5px solid #bbbbba;
+  border-top: 5px solid transparent !important;
+}
+.flyout.flyout-position-top,
+.flyout.flyout-position-top-left,
+.flyout.flyout-position-top-right {
+  padding-bottom: 5px;
+}
+.flyout.flyout-position-top .flyout-arrow,
+.flyout.flyout-position-top-left .flyout-arrow,
+.flyout.flyout-position-top-right .flyout-arrow {
+  margin-top: -1px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  border-top: 5px solid #ffffff;
+}
+.flyout.flyout-position-top .flyout-arrow:before,
+.flyout.flyout-position-top-left .flyout-arrow:before,
+.flyout.flyout-position-top-right .flyout-arrow:before {
+  right: -5px;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  border-top: 5px solid #bbbbba;
+}
+.flyout.flyout-position-bottom,
+.flyout.flyout-position-bottom-left,
+.flyout.flyout-position-bottom-right {
+  padding-top: 5px;
+}
+.flyout.flyout-position-bottom .flyout-arrow,
+.flyout.flyout-position-bottom-left .flyout-arrow,
+.flyout.flyout-position-bottom-right .flyout-arrow {
+  margin-top: 1px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  border-bottom: 5px solid #ffffff;
+}
+.flyout.flyout-position-bottom .flyout-arrow:before,
+.flyout.flyout-position-bottom-left .flyout-arrow:before,
+.flyout.flyout-position-bottom-right .flyout-arrow:before {
+  right: -5px;
+  top: -1px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  border-bottom: 5px solid #bbbbba;
+}
+.flyout.flyout-position-right-top .flyout-arrow,
+.flyout.flyout-position-left-top .flyout-arrow {
+  margin-top: 2px;
+}
+.flyout.flyout-position-right-bottom .flyout-arrow,
+.flyout.flyout-position-left-bottom .flyout-arrow {
+  margin-top: -2px;
+}
+.flyout.flyout-position-top-left .flyout-arrow,
+.flyout.flyout-position-bottom-left .flyout-arrow {
+  margin-left: 2px;
+}
+.flyout.flyout-position-top-right .flyout-arrow,
+.flyout.flyout-position-bottom-right .flyout-arrow {
+  margin-left: -2px;
+}
+.flyout-arrow {
+  position: absolute;
+}
+.flyout-arrow:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}

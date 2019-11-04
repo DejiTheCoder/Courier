@@ -1,0 +1,1064 @@
+html {
+  background-color: #efefef;
+  height: 100%;
+}
+body.login {
+  width: 1242px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+body.login .wma > .wma-splash header,
+body.login .wma > .wma-privacy-view header {
+  padding: 15px 25px 0;
+}
+body.login .wma > .wma-login {
+  width: 1242px;
+}
+body.login .wma > .wma-login > header .header-content {
+  padding: 15px 25px 0;
+}
+body.login .wma > .wma-login > header .header-content h1 {
+  color: #1c1c1c;
+  font-size: 2rem;
+  margin: 0 0 9px;
+  content: "Welcome";
+}
+body.login .wma > .wma-login > header .primary-column {
+  width: 534px;
+}
+body.login .wma > .wma-login > main {
+  padding-top: 0;
+}
+body.login .wma > .wma-login > main .password {
+  font-family: "Password";
+}
+body.login .wma > .wma-login > main #registernow {
+  margin-bottom: 0;
+  width: 120px;
+}
+body.login .wma > .wma-login > main .register {
+  margin: 32px 0 40px;
+  border-bottom: none;
+}
+body.login .wma > .wma-login > main .register p {
+  margin: 10px 0 12px;
+}
+body.login .wma > .wma-login > main .register > h3 {
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+body.login .wma > .wma-login > main .login > p:last-child {
+  margin-bottom: 40px;
+}
+body.login .wma > .wma-login > main input[type=checkbox] {
+  margin-right: 10px;
+}
+body.login .wma > .wma-login > main .form-label {
+  display: block;
+  color: #444444;
+  font-size: 0.82rem;
+  margin: 24px 0 0;
+}
+body.login .wma > .wma-login > main input[type=text],
+body.login .wma > .wma-login > main input[type=password] {
+  display: block;
+  margin: 4px 0 5px;
+}
+body.login .wma > .wma-login > main input[readonly] {
+  background-color: #ffffff;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #bbbbba;
+  border-bottom: 1px solid #bbbbba;
+  border-left: 1px solid #919191;
+  color: #1c1c1c;
+}
+body.login .wma > .wma-login .primary-column,
+body.login .wma > .wma-login .block-browser-banner {
+  margin-bottom: 0;
+}
+body.login .wma > .wma-login .block-browser-banner {
+  margin-top: 15px;
+  margin-left: 132px;
+}
+body.login .wma > .wma-login #podcast-banner {
+  display: none;
+}
+body.login .wma > .wma-login #sidebar {
+  padding: 0;
+  background-color: #ffffff;
+}
+body.login .wma > .wma-login #sidebar .sidebar-content {
+  margin: -40px 0 0;
+  padding: 20px;
+  background-color: #E2EDF6;
+}
+body.login .wma > .wma-login .popup {
+  max-width: 735px;
+  width: 735px;
+  height: 70vh;
+}
+body.login .wma-forgot main {
+  position: relative;
+}
+body.login .wma-forgot main.primary-column {
+  position: static;
+}
+body.login .wma-forgot .bottom-line {
+  display: block;
+}
+body.login .wma-forgot input[type=text] {
+  margin-top: 4px;
+}
+body.login .wma-forgot nav li {
+  width: 600px;
+}
+body.login .wma-forgot h3 {
+  margin: 40px 0 16px;
+  font-weight: normal;
+}
+body.login .wma-forgot label:first-child {
+  margin-top: 18px;
+}
+body.login .wma-forgot #forgotusername {
+  margin-top: 23px;
+}
+body.login .wma-forgot header > .btn-group.forgotviewselector {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-top: 32px;
+  padding-left: 5px;
+}
+body.login .wma-forgot header > .btn-group.forgotviewselector > .btn {
+  font-weight: normal;
+  background-color: #ffffff;
+  border-bottom: 0;
+  width: 150px;
+  height: 36px;
+  font-size: 0.8125rem;
+}
+body.login .wma-forgot header > .btn-group.forgotviewselector > .btn:hover,
+body.login .wma-forgot header > .btn-group.forgotviewselector .btn:focus {
+  background-color: #dfdfdf;
+}
+body.login .wma-forgot header > .btn-group.forgotviewselector > .btn:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+body.login .wma-forgot header > .btn-group.forgotviewselector > .btn:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+body.login .wma-forgot header > .btn-group.forgotviewselector .btn.is-active {
+  background-color: #646464;
+  border: 1px solid #646464;
+  color: #ffffff;
+}
+body.login .wma-forgot .donothavessn {
+  margin-left: 8px;
+}
+body.login .wma-forgot .getpassword-primary-column {
+  width: 582px;
+}
+body.login .wma-forgot aside {
+  margin-top: 120px;
+}
+body.login .wma-forgot .getpin aside {
+  position: relative;
+}
+body.login .wma .wma-password-reset .position-abs {
+  position: absolute;
+}
+body.login .wma .wma-password-reset .info-panel {
+  box-sizing: content-box;
+  width: 216px;
+  background: #E2EDF6;
+  border: 1px solid #F5F5F5;
+  padding: 21px;
+}
+body.login .wma .wma-password-reset .info-panel h3 {
+  margin: 0 0 1em;
+}
+body.login .wma .wma-password-reset .info-panel.position-right {
+  right: 25px;
+}
+body.login .wma .wma-password-reset p {
+  color: #444444;
+}
+body.login .wma .wma-password-reset label {
+  margin: 0 0 7px;
+}
+body.login .wma .wma-password-reset .hint {
+  margin-bottom: 30px;
+}
+body.login .wma .wma-password-reset fieldset {
+  margin-top: 40px;
+}
+body.login .wma .wma-password-reset fieldset legend {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  border-bottom: 0;
+  margin-bottom: 16px;
+}
+body.login .wma .wma-password-reset fieldset legend + p + label {
+  display: inline-block;
+  margin-top: 8px;
+}
+body.login .wma .wma-password-reset fieldset select + input {
+  width: 190px;
+}
+body.login .wma .wma-password-reset select {
+  width: 190px;
+  height: 30px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #007099;
+}
+body.login .wma .wma-password-reset select option {
+  font-size: 0.82rem;
+}
+body.login .wma .wma-password-reset .icon {
+  margin-left: 0.5rem;
+}
+body.login .wma.pb .wma-enrollment nav li:last-child {
+  display: none;
+}
+body.login .wma-enrollment nav li {
+  width: 238px;
+}
+body.login .wma-enrollment [type=text].month,
+body.login .wma-enrollment [type=text].day,
+body.login .wma-enrollment [type=text].account-branch {
+  width: 2.3rem;
+}
+body.login .wma-enrollment [type=text].year {
+  width: 3rem;
+}
+body.login .wma-enrollment [type=text].account-number {
+  width: 4rem;
+}
+body.login .wma-enrollment a {
+  cursor: pointer;
+}
+body.login .wma-enrollment #regid-notification {
+  position: relative;
+  left: 0.3rem;
+}
+body.login .wma-enrollment .regid-toggle-group {
+  display: inline-block;
+  margin-top: 21px;
+}
+body.login .wma-enrollment .regid-toggle-group input {
+  margin-bottom: 0;
+  margin-right: 0.2rem;
+}
+body.login .wma-enrollment .ssn a,
+body.login .wma-enrollment .passport a {
+  margin-left: 8px;
+}
+body.login .wma-enrollment .accept {
+  margin: 30px 0 0;
+}
+body.login .wma-enrollment .accept div {
+  border: 1px solid #d2d2d2;
+  padding: 20px;
+}
+body.login .wma-enrollment .accept div input {
+  width: 5%;
+  vertical-align: top;
+}
+body.login .wma-enrollment .accept div label {
+  width: 90%;
+  margin: 0;
+  display: inline-block;
+}
+body.login .wma-enrollment h3 {
+  margin: 40px 0 16px;
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+body.login .wma-enrollment .edelivery h4 {
+  font-weight: normal;
+  line-height: 1;
+}
+body.login .wma-enrollment .register-primary-column {
+  width: 510px;
+}
+body.login .wma-enrollment .register-primary-column .info-panel {
+  box-sizing: content-box;
+  width: 216px;
+  background: #E2EDF6;
+  border: 1px solid #F5F5F5;
+  padding: 21px;
+}
+body.login .wma-enrollment .register-primary-column .info-panel h3 {
+  margin: 0 0 1em;
+}
+body.login .wma-enrollment .register-primary-column .info-panel.position-right {
+  right: 25px;
+}
+body.login .wma-enrollment .position-abs {
+  position: absolute;
+}
+body.login .wma-enrollment #agreements {
+  display: none;
+}
+body.login .edelivery {
+  width: 990px;
+}
+body.login .edelivery p {
+  width: 480px;
+  margin-bottom: 27px;
+}
+body.login .edelivery > form > table.tbl {
+  margin: 30px 0 5px;
+}
+body.login .edelivery > form > table.tbl th {
+  white-space: normal;
+  min-width: 170px;
+  vertical-align: bottom;
+}
+body.login .edelivery > form > table.tbl th,
+body.login .edelivery > form > table.tbl th td {
+  padding: 0 11px 10px;
+}
+body.login .edelivery > form > table.tbl th span {
+  display: inline-block;
+  width: 130px;
+}
+body.login .edelivery > form > table.tbl input[type=checkbox] {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  margin: 0 0 10px;
+}
+body.login .edelivery > form select {
+  margin: 7px 0 0;
+  font-weight: bold;
+  color: #007099;
+}
+body.login .edelivery > form .accept {
+  width: 480px;
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body.login .loading-overlay {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body.login .loading-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  left: 0;
+}
+body.login .loading-overlay .loading-overlay-content {
+  position: relative;
+  top: calc(50% - 100px);
+  width: 100%;
+  text-align: center;
+  color: #444444;
+}
+body.login .loading-overlay .loading-overlay-content p.loading-overlay-big-text {
+  font-size: 18px;
+}
+body.login .loading-overlay .loading-overlay-content p.loading-overlay-small-text {
+  margin-top: 3px;
+}
+body.login .loading-overlay .loading-overlay-content .loading-overlay-spinner {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  display: block;
+  fill: #919191;
+  position: relative;
+  left: -5px;
+  animation: spin 4000ms linear infinite;
+  -webkit-animation: spin 4000ms linear infinite;
+  -moz-animation: spin 4000ms linear infinite;
+  -ms-animation: spin 4000ms linear infinite;
+}
+body.login .loading-overlay .loading-overlay-content.small {
+  top: calc(50% - 34px);
+}
+body.login .loading-overlay .loading-overlay-content.small p.loading-overlay-big-text {
+  font-size: 14px;
+}
+body.login .loading-overlay .loading-overlay-content.small .loading-overlay-spinner {
+  width: 20px;
+  height: 20px;
+}
+body.login .getpin .phones-list tr th:first-child {
+  width: 140px;
+}
+body.login .getpin .phones-list tr th:first-child + th,
+body.login .getpin .phones-list tr th:first-child + th + th {
+  width: 120px;
+}
+body.login .getpin .phones-list tr th:last-child::before {
+  display: none;
+}
+body.login .getpin .emails-list tr th {
+  width: 510px;
+}
+body.login .getpin .emails-list td span {
+  display: inline-block;
+  min-width: 232px;
+}
+body.login .getpin .emails-list td input {
+  margin-left: 4px;
+}
+body.login .getpin .emails-list.restricted-note::after {
+  position: relative;
+  top: 5px;
+  color: #646464;
+  content: "*For your protection, if you have recently added or modified an e-mail address or phone number, you will not be able to choose that option.";
+}
+body.login .getpin .phones-list input {
+  float: right;
+  margin-right: 4px;
+}
+body.login .getpin .emails-list {
+  margin-top: 60px;
+}
+body.login .getpin .getpin-primary-column {
+  width: 714px;
+}
+body.login .getpin .explanation {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #E2EDF6;
+  color: #444444;
+}
+body.login .getpin .skip {
+  margin-left: 30px;
+}
+body.login .getpin table.tbl > thead > tr > th {
+  padding-left: 11px;
+  padding-bottom: 10px;
+}
+body.login .getpin table.tbl > tbody > tr > td {
+  padding-left: 11px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+body.login nav.wizard {
+  display: table;
+  width: 100%;
+  padding: 30px 0;
+}
+body.login nav.wizard ul {
+  margin: 0 25px 8px;
+}
+body.login nav.wizard ul li {
+  display: table-cell;
+  position: relative;
+  list-style-type: none;
+  padding-bottom: 10px;
+  border-bottom: 8px solid #d2d2d2;
+  color: #646464;
+  font-size: 14px;
+}
+body.login nav.wizard ul li.is-active {
+  border-bottom-color: #007099;
+  color: #1c1c1c;
+}
+body.login nav.wizard ul li.is-completed {
+  border-bottom-color: #919191;
+  color: #646464;
+}
+body.login nav.wizard ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -10px;
+  bottom: -7px;
+  width: 10px;
+  height: 6px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+body.login nav.wizard ul li:first-child:before {
+  display: none;
+}
+body.login nav.wizard:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  font-size: 1px;
+  clear: both;
+}
+body.login .wma-outofband nav li {
+  width: 600px;
+}
+body.login .wma-outofband .phones-list::after {
+  position: relative;
+  top: 5px;
+  content: "Only direct-dial phone numbers can receive your PIN (no central extensions).";
+  color: #646464;
+}
+body.login .wma-outofband h3 {
+  margin: 40px 0 16px;
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+body.login .wma-outofband .getpin .emails-list {
+  margin-top: 40px;
+}
+body.login .enterpin form {
+  margin-top: 40px;
+}
+body.login .enterpin form > a {
+  margin-left: 0.5rem;
+}
+body.login .enterpin form > label {
+  margin-bottom: 7px;
+}
+body.login .enterpin .rememberMyComputer {
+  display: none;
+  margin-top: 30px;
+}
+body.login .enterpin .rememberMyComputer a:first-child {
+  display: none;
+}
+body.login .enterpin .rememberMyComputer label {
+  margin: 0;
+  line-height: 2rem;
+}
+body.login .enterpin .rememberMyComputer label input {
+  margin: 0 5px 0 0;
+  vertical-align: text-top;
+}
+body.login .enterpin .rememberMyComputer p:first-child + label {
+  display: inline-block;
+}
+body.login .enterpin .rememberMyComputer .flyout-trigger {
+  position: relative;
+  left: 0.3rem;
+}
+body.login .enterpin input[type=submit].btn-primary {
+  display: inline-block;
+  margin-top: 24px;
+}
+body.login .popup-overlay {
+  position: fixed;
+  z-index: 150;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+body.login .popup-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 160;
+  display: none;
+}
+body.login .popup-wrapper a.close {
+  position: absolute;
+  color: #1c1c1c;
+  top: 10px;
+  right: 12px;
+  cursor: default;
+  font-size: 26px;
+}
+body.login .popup-wrapper a.close:hover::before,
+body.login .popup-wrapper a.close:hover::after {
+  color: #007099;
+}
+body.login .popup-wrapper a.close:hover {
+  text-decoration: none;
+}
+body.login .popup-wrapper a.close:active::before,
+body.login .popup-wrapper a.close:active::after {
+  color: #007099;
+}
+body.login .popup-wrapper .navigation {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+body.login .popup {
+  position: relative;
+  outline: none;
+  padding: 30px;
+  width: 400px;
+  height: 260px;
+  background-color: #ffffff;
+}
+body.login .popup .popup-content {
+  position: absolute;
+  top: 0;
+  bottom: 90px;
+  overflow-y: auto;
+}
+body.login .popup .popup-content > h3 {
+  font-weight: bold;
+}
+body.login .popup .popup-content > h3:first-child {
+  margin-top: 0;
+}
+body.login .popup .navigation > .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-top: 0;
+}
+body.login .popup .navigation > .btn:first-of-type {
+  margin-right: 25px;
+}
+body.login .popup .navigation > .btn.btn-primary {
+  margin: 0;
+}
+body.login .popup.help {
+  width: 500px;
+  height: auto;
+  padding-bottom: 30px;
+}
+body.login .popup.help .popup-content > h3 {
+  font-size: 1.5rem;
+  font-family: "Frutiger", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+body.login .popup.help p {
+  margin-bottom: 40px;
+}
+body.login .popup.help .navigation {
+  position: static;
+  text-align: right;
+}
+body.login .wma .wma-email-collection {
+  position: relative;
+}
+body.login .wma .wma-email-collection main {
+  position: static !important;
+}
+body.login .wma .wma-email-collection .email,
+body.login .wma .wma-secure-pickup .email,
+body.login .wma .wma-invalid-email .email {
+  font-weight: bold;
+}
+body.login .wma .wma-email-collection label,
+body.login .wma .wma-secure-pickup label,
+body.login .wma .wma-invalid-email label {
+  margin-bottom: 7px;
+}
+body.login .wma .wma-email-collection .btn-primary,
+body.login .wma .wma-secure-pickup .btn-primary,
+body.login .wma .wma-invalid-email .btn-primary {
+  display: block;
+}
+body.login .wma .wma-email-collection .primary-column,
+body.login .wma .wma-secure-pickup .primary-column,
+body.login .wma .wma-invalid-email .primary-column {
+  width: 510px;
+}
+body.login .wma .wma-email-collection .primary-column > h2 + p + p,
+body.login .wma .wma-secure-pickup .primary-column > h2 + p + p,
+body.login .wma .wma-invalid-email .primary-column > h2 + p + p {
+  margin-top: 30px;
+}
+body.login .wma .wma-secure-pickup [type=submit] {
+  display: inline-block;
+}
+body.login .wma-privacy-view ul {
+  margin: 45px 0 60px;
+}
+body.login .wma-privacy-view li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+body.login .wma-privacy-view li > div {
+  margin-top: 5px;
+}
+body.login .wma .wma-splash iframe {
+  width: 100%;
+}
+@font-face {
+  font-family: "Password";
+  src: url("fonts/Password.ttf?#iefix");
+  src: url("fonts/Password.woff") format("woff"), url("fonts/Password.svg") format("svg"), url("fonts/Password.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Frutiger";
+  src: url("fonts/af97a512-f55a-4f61-b2ce-659c883930fc.eot?#iefix");
+  src: url("fonts/af97a512-f55a-4f61-b2ce-659c883930fc.eot?#iefix") format("eot"), url("fonts/3fbbd6b1-cfa7-4ff0-97ea-af1b2c489f15.woff") format("woff"), url("fonts/076311f8-a01b-4389-a5eb-334a62e62d45.ttf") format("truetype"), url("fonts/c59a36ab-4ef8-4ee1-a2f8-48aa79d4f877.svg#c59a36ab-4ef8-4ee1-a2f8-48aa79d4f877") format("svg");
+}
+@font-face {
+  font-family: "Frutiger";
+  font-weight: 100;
+  src: url("fonts/e5b1a25e-0d2b-4aec-8672-da21553f205d.eot?#iefix");
+  src: url("fonts/e5b1a25e-0d2b-4aec-8672-da21553f205d.eot?#iefix") format("eot"), url("fonts/e59898b4-93a8-4df7-885a-7806f9f0604d.woff") format("woff"), url("fonts/85928e7e-2ace-4f1d-be54-b11c333a8d97.ttf") format("truetype"), url("fonts/89390d0d-7a62-493d-9e77-9c162a709520.svg#89390d0d-7a62-493d-9e77-9c162a709520") format("svg");
+}
+@font-face {
+  font-family: "Frutiger";
+  font-weight: 200;
+  src: url("fonts/7d3671fc-8c26-459c-98e1-997c4f6c8c93.eot?#iefix");
+  src: url("fonts/7d3671fc-8c26-459c-98e1-997c4f6c8c93.eot?#iefix") format("eot"), url("fonts/2a004a53-ac5c-43b3-9eeb-9f74ae4c1609.woff") format("woff"), url("fonts/74d53f3b-1683-4d5a-a556-e13f6553cdf0.ttf") format("truetype"), url("fonts/3f5a5b87-e71e-4544-be0c-da4daa132710.svg#3f5a5b87-e71e-4544-be0c-da4daa132710") format("svg");
+}
+@font-face {
+  font-family: "Frutiger";
+  font-weight: bold;
+  src: url("fonts/fbd7c0fb-f004-4e83-81d2-1d400413a873.eot?#iefix");
+  src: url("fonts/fbd7c0fb-f004-4e83-81d2-1d400413a873.eot?#iefix") format("eot"), url("fonts/9aa32a81-1124-4c43-b3db-15bfb1f7aed2.woff") format("woff"), url("fonts/6faffbf4-f8e8-4817-b24b-a390e166be7e.ttf") format("truetype"), url("fonts/fc09de64-de25-425e-90dc-a0cae29b02c4.svg#fc09de64-de25-425e-90dc-a0cae29b02c4") format("svg");
+}
+@font-face {
+  font-family: "Frutiger";
+  font-style: italic;
+  src: url("fonts/fcbab1a3-9659-4b39-8479-cc1f50d18f55.eot?#iefix");
+  src: url("fonts/fcbab1a3-9659-4b39-8479-cc1f50d18f55.eot?#iefix") format("eot"), url("fonts/e2ade8a9-bd48-45e7-95e6-9dc917ba4f74.woff") format("woff"), url("fonts/19fe9614-8825-4e7d-b8c3-230d2561e0e2.ttf") format("truetype"), url("fonts/c2f8e3aa-1c1a-49ee-9ec7-30f61a5e96d3.svg#c2f8e3aa-1c1a-49ee-9ec7-30f61a5e96d3") format("svg");
+}
+@font-face {
+  font-family: "Frutiger";
+  font-style: italic;
+  font-weight: 200;
+  src: url("fonts/072713ba-cb3a-4522-8f3b-b120f8eae10f.eot?#iefix");
+  src: url("fonts/072713ba-cb3a-4522-8f3b-b120f8eae10f.eot?#iefix") format("eot"), url("fonts/8259f047-a5d2-40a0-a98c-1c24f0316b08.woff") format("woff"), url("fonts/1078a920-3def-4194-ba69-46751fb9af38.ttf") format("truetype"), url("fonts/4c72fb1e-e1b0-4a18-91cc-5dbe2faaf2a3.svg#4c72fb1e-e1b0-4a18-91cc-5dbe2faaf2a3") format("svg");
+}
+@font-face {
+  font-family: "UBSHeadline";
+  src: url("fonts/UBSHeadlineW01.eot?#iefix");
+  src: url("fonts/UBSHeadlineW01.eot?#iefix") format("eot"), url("fonts/UBSHeadlineW01.woff") format("woff"), url("fonts/UBSHeadlineW01.ttf") format("truetype"), url("fonts/UBSHeadlineW01.svg#UBSHeadline W01") format("svg");
+}
+@font-face {
+  font-family: "UBSHeadline";
+  font-style: italic;
+  src: url("fonts/UBSHeadlineW01-italic.eot?#iefix");
+  src: url("fonts/UBSHeadlineW01-italic.eot?#iefix") format("eot"), url("fonts/UBSHeadlineW01-italic.woff") format("woff"), url("fonts/UBSHeadlineW01-italic.ttf") format("truetype"), url("fonts/UBSHeadlineW01-italic.svg#UBSHeadline W01 - Italic") format("svg");
+}
+@font-face {
+  font-family: 'OpenSans Web';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/OpenSans-Regular.eot');
+  src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular.woff') format('woff'), url('fonts/OpenSans-Regular.ttf') format('truetype'), url('fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+}
+@font-face {
+  font-family: 'OpenSans Web';
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/OpenSans-Semibold.eot');
+  src: url('fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Semibold.woff') format('woff'), url('fonts/OpenSans-Semibold.ttf') format('truetype'), url('fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+}
+@font-face {
+  font-family: 'OpenSans Web';
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/OpenSans-Italic.eot');
+  src: url('fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Italic.woff') format('woff'), url('fonts/OpenSans-Italic.ttf') format('truetype'), url('fonts/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+}
+@font-face {
+  font-family: 'OpenSans Web';
+  font-style: italic;
+  font-weight: bold;
+  src: url('fonts/OpenSans-SemiboldItalic.eot');
+  src: url('fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-SemiboldItalic.woff') format('woff'), url('fonts/OpenSans-SemiboldItalic.ttf') format('truetype'), url('fonts/OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic') format('svg');
+}
+body.login > header {
+  background-color: #ffffff;
+}
+body.login .wma {
+  font-size: 0.82rem;
+  padding: 0;
+  min-width: 1200px;
+  background-color: #ffffff;
+}
+body.login .wma .popup-content {
+  position: static;
+}
+body.login .wma .popup.agreement-popup {
+  color: #1c1c1c;
+  max-width: 735px;
+  width: 735px;
+  height: 70vh;
+}
+body.login .wma .popup.agreement-popup h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+body.login .wma .popup.agreement-popup h4 {
+  font-size: 14px;
+}
+body.login .wma .popup.agreement-popup .popup-content {
+  border-bottom: 1px solid #d2d2d2;
+  bottom: 100px;
+  font-family: Frutiger, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-right: 30px;
+  margin-top: 21px;
+  padding-left: 5px;
+  position: absolute;
+}
+body.login .wma .popup.agreement-popup .popup-content > ol {
+  padding-left: 5px;
+}
+body.login .wma .popup.agreement-popup .popup-content ol ol {
+  list-style-type: lower-alpha;
+}
+body.login .wma .popup.agreement-popup .popup-content li {
+  margin-bottom: 15px;
+}
+body.login .wma .current-date {
+  color: #444444;
+  font-size: 1.125rem;
+  margin-bottom: 36px;
+}
+body.login .wma .upper-line {
+  border-top: #d2d2d2 solid 1px;
+}
+body.login .wma .bottom-line {
+  border-bottom: #d2d2d2 solid 1px;
+}
+body.login .wma .flyout h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+body.login .wma .flyout .flyout-content {
+  padding: 30px;
+  max-width: 400px;
+}
+body.login .wma .flyout .flyout-close-button {
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+}
+body.login .wma .btn-primary {
+  margin: 30px 0;
+}
+body.login .wma .btn {
+  font-size: 0.8125rem;
+  font-weight: bold;
+  min-width: 80px;
+  height: 30px;
+}
+body.login .wma .hint {
+  color: #646464;
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+body.login .wma .divider {
+  display: inline-block;
+  width: 21px;
+  text-align: center;
+}
+body.login .wma .icon {
+  color: #5a6f89;
+  cursor: pointer;
+}
+body.login .wma .icon:focus {
+  color: #444444;
+  outline: 0 solid transparent;
+}
+body.login .wma .neo-icon-information {
+  font-size: 16px;
+}
+body.login .wma header + main {
+  position: relative;
+  padding: 40px 24px;
+}
+body.login .wma header + main aside {
+  float: right;
+  width: 276px;
+  padding: 20px;
+  background-color: #E2EDF6;
+}
+body.login .wma header + main aside h3 {
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+body.login .wma header + main aside div {
+  margin: 6px 0;
+}
+body.login .wma header + main aside span {
+  color: #1c1c1c;
+  font-size: 1.4rem;
+  vertical-align: baseline;
+  margin-right: 0.5rem;
+}
+body.login .wma header + main aside a {
+  margin-top: 1rem;
+  text-decoration: none;
+}
+body.login .wma header + main aside div:last-child .icon {
+  opacity: 0;
+}
+body.login .wma header + main aside .brokercheck {
+  margin-top: 20px;
+  border: #E2EDF6 1px solid;
+}
+body.login .wma header + main aside .brokercheck a {
+  display: block;
+}
+body.login .wma header + main aside .brokercheck a img {
+  width: 274px;
+  height: 78px;
+}
+body.login .wma header + main aside .icon {
+  color: #444444;
+}
+body.login .wma input[type=text],
+body.login .wma input[type=password] {
+  width: 275px;
+  height: 30px;
+  font-size: 0.8125rem;
+}
+body.login .wma .error-notification > .notification-content.icon-is-visible.notification-large .notification-text-wrapper {
+  float: right;
+  width: 502px;
+}
+body.login .wma .error-notification > .notification-content {
+  width: 550px;
+  border-top: 0;
+}
+body.login .wma h2 {
+  margin: 0 0 9px;
+  color: #1c1c1c;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1;
+}
+body.login .wma .register-form {
+  margin-top: 40px;
+}
+body.login .wma label {
+  display: block;
+  color: #444444;
+  font-size: 0.82rem;
+  margin: 27px 0 0;
+}
+body.login .wma label > input[type=text],
+body.login .wma label input[type=password] {
+  display: block;
+  margin: 4px 0 5px;
+}
+body.login .wma .checkbox-line {
+  margin-top: 0;
+}
+body.login .wma a {
+  cursor: pointer;
+}
+body.login .wma table.tbl {
+  width: 100%;
+  border-top: 0;
+}
+body.login .wma table.tbl > thead th {
+  color: #1c1c1c;
+  font-weight: normal;
+}
+body.login .wma table.tbl > tbody tr:last-child td::before {
+  display: none;
+}
+body.login .wma table.tbl > tbody tr td {
+  color: #646464;
+}
+body.login .wma .login-form-wrapper {
+  width: 510px;
+}
+body.login .wma .login-form-wrapper form {
+  padding-top: 35px;
+}
+body.login .wma .float-left {
+  float: left;
+}
+body.login .wma .clear {
+  clear: both;
+}
+body.login .wma .success-notification.notification {
+  position: absolute;
+}
+body.login .wma .success-notification.notification > .notification-content {
+  border: 0;
+  padding: 21px;
+}
+body.login .wma .success-notification.notification > .notification-content .neo-icon-close {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  line-height: 24px;
+}
+body.login .wma .success-notification.notification > .notification-content .notification-title-container {
+  padding-bottom: 21px;
+}
+body.login .wma .success-notification.notification > .notification-content .notification-title-container .notification-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+body.login .wma .success-notification.notification > .notification-content .notification-buttons {
+  padding-top: 40px;
+}
+body.login .wma .success-notification.notification > .notification-content .notification-buttons button {
+  margin: 0;
+}
+body.login .wma .flyout .flyout-close-button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #007099;
+  background-color: rgba(0, 0, 0, 0);
+}
+body.login footer {
+  background-color: #ffffff;
+  padding: 0 24px 40px;
+  width: 1194px;
+  clear: both;
+}
+body.login footer .footer-content a {
+  color: #007099;
+}
+body.login .wma main + footer {
+  display: none;
+}
+body.login #arcotuserdataDiv + div {
+  display: none;
+}

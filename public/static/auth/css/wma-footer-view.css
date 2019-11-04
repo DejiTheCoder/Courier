@@ -1,0 +1,26 @@
+.footer-content {
+  font-size: 12px;
+  color: #6c6c6c;
+}
+.footer-content .links {
+  margin: 20px 0px 20px 0px;
+  padding-top: 20px;
+  border-top: 1px solid #bbbbba;
+}
+.footer-content .links a {
+  display: inline-block;
+}
+.footer-content .links a:after {
+  content: "|";
+  margin: 0px 7px;
+  font-size: 9px;
+}
+.footer-content .links a:last-child:after {
+  display: none;
+}
+.footer-content .member-spic {
+  margin-top: 10px;
+}
+.footer-content p {
+  margin: 0px 0px;
+}
